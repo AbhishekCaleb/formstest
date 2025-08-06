@@ -4602,12 +4602,6 @@
         ]
       },
       {
-        "component": "number",
-        "name": "stepValue",
-        "label": "Step Value",
-        "valueType": "number"
-      },
-      {
         "component": "container",
         "name": "help",
         "label": "Help Content",
