@@ -31,7 +31,20 @@
           "...": "../../models/form-common/_basic-input-fields.json"
         },
         {
+          "component": "number",
+          "name": "stepValue",
+          "label": "Step Value",
+          "valueType": "number"
+        },
+        {
           "...": "../../models/form-common/_help-container.json"
+        },
+        {
+          "component": "container",
+          "name": "validation",
+          "label": "Validation",
+          "collapsible": true,
+          "...": "../../models/form-common/_number-validation-fields.json"
         }
       ]
     }

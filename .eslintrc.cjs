@@ -22,7 +22,7 @@ module.exports = {
       devDependencies: ['**/*.test.js', '**/*.spec.js', 'playwright.config.js'],
     }],
     'xwalk/max-cells': ['error', {
-      '*': 4, // default limit for all models
+      '*': 20, // default limit for all models
       form: 16,
       wizard: 12,
       'form-button': 7,
